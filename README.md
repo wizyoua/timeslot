@@ -34,4 +34,5 @@ Live Project:
     -    ```php artisan serve```
  - Configure your local database in the .env file
  - run ```php artisan migrate```
+ - Run unit tests: ``` ./vendor/bin/phpunit ```
  - Load the given page from php artisan serve page and you should be able to see the application running
