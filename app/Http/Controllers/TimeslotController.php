@@ -6,6 +6,7 @@ use App\Http\Requests\StoreTimeslotRequest;
 use App\Http\Requests\UpdateTimeslotRequest;
 use App\Models\Timeslot;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 
 class TimeslotController extends Controller
 {
@@ -47,7 +48,7 @@ class TimeslotController extends Controller
         $timeslot->cancel_state = $request->cancel_state;
 
         $timeslot->save();
-        \Log::info(response()->json($timeslot));
+        Log::info(response()->json($timeslot));
         return response()->json($timeslot);
         
     }
@@ -55,7 +56,7 @@ class TimeslotController extends Controller
     public function getTimeslot($id)
     {
         $timeslot = Timeslot::findOrFail($id);
-        \Log::info($timeslot);
+        Log::info($timeslot);
 
         return response()->json($timeslot);
     }
@@ -122,7 +123,7 @@ class TimeslotController extends Controller
 
         $timeslot->save();
 
-        \Log::info(response()->json($timeslot));
+        Log::info(response()->json($timeslot));
         return response()->json($timeslot);
     }
 
