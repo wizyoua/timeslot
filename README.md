@@ -21,8 +21,9 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
-
+## Running Project
+Live Project: 
+- [Peek Timeslot](https://cryptic-beyond-61526.herokuapp.com/)
 How to run locally: 
  - clone repository to your machine on your Desktop
  -    ```cd timeslot```
