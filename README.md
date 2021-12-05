@@ -23,8 +23,8 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ## Running Project
 Live Project: 
-- [Peek Timeslot](https://cryptic-beyond-61526.herokuapp.com/)
-How to run locally: 
+- [Peek Timeslot Live Example](https://cryptic-beyond-61526.herokuapp.com/)
+- How to run locally: 
  - clone repository to your machine on your Desktop
  -    ```cd timeslot```
  -    ```composer install```
