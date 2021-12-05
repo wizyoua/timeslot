@@ -25,11 +25,12 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 How to run locally: 
  - clone repository to your machine on your Desktop
- -    cd timeslot
- -    composer install
- -    npm install
- -    npm run watch
+ -    ```cd timeslot```
+ -    ```composer install```
+ -    ```npm install```
+ -   ```npm run watch```
  - In another terminal window run the following:
-    -    php artisan serve
+    -    ```php artisan serve```
  - Configure your local database in the .env file
+ - run ```php artisan migrate```
  - Load the given page from php artisan serve page and you should be able to see the application running
